@@ -15,8 +15,10 @@
 
 - Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
 - Consistent with the default React Native template
+- Enables Hermes for improved performance
 - Minimal additional dependencies
-- Uses React `v17` and React Native `0.66.4`.
+- Based on TypeScript
+- Uses React `v17` and React Native `0.66.4`
 
 ## Installation
 
