@@ -1,4 +1,5 @@
 import { SafeAreaView, Text } from 'react-native';
+import StorybookUI from '../../../storybook';
 
 import styles from './styles';
 
@@ -8,4 +9,5 @@ const App = () => (
   </SafeAreaView>
 );
 
-export default App;
+// module.exports = __DEV__ ? StorybookUI : App;
+export default StorybookUI;
